@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+name
+{
+    font-size:35px;
+    color:rgb(116, 116, 116);
+}
+a{
+    font-size:30px;
+    color:rgb(138, 138, 138);
+    text-decoration: none;
+}
