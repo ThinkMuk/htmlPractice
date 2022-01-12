@@ -104,3 +104,35 @@ button:hover {
     border-radius:50%;
     z-index:2;
 }
+/*2022-01-13*/
+.center{
+    position: absolute;
+    left:50%;
+    top:50%;
+    width: auto;
+    transform: translate(-50%,-50%);
+}
+.item-wrap{
+    position: relative;
+    border: 2px solid #004fff;
+    border-radius: 6px;
+    background: #ddd;
+}
+.item{
+    /* margin은 겉에 있는 회색 간격을 얘기함 */
+    margin:20px;
+    /* padding은 하얀박스와 택스트 사이의 간격을 얘기함 */
+    padding:20px;
+    /* 여기서 border은 컨텐츠(box 01, box 02)의 태두리선을 얘기함 */
+    border: 2px solid #004fff;
+    width:120px;
+    color:#222;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 6px;
+    background: #fff;
+    transition:0.3s;
+}
+.item:hover{
+    box-shadow: 0 6px 32px rgba(0,79,255,0.3);
+}
