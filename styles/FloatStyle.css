@@ -1,0 +1,55 @@
+.container{
+    padding:50px;
+    background-color: rgb(29, 29, 29);
+}
+.recommendImg{
+    width:160px;
+    height:100px;
+
+    float: left;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+ /* 이미지도 태두리와 같이 인식시키기 */
+ .clear{
+     clear: both;
+ }
+
+.item-lists{
+    background-color: rgb(46, 46, 46);
+    width: 100%;
+    max-width: 375px;
+    padding: 8px;
+    border:1px solid rgb(46, 46, 46);
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+.item-lists > h1 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    margin: 12px 0;
+}
+.item{
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 12px;
+    transition: 0.3s;
+}
+.item p{
+    color: rgb(184, 184, 184);
+}
+.item:hover{
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+}
+
+.item h2{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
