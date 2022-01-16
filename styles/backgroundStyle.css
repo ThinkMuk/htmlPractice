@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+.item-lists{
+    width:100%;
+    max-width: 720px;
+    margin: auto;
+    position: relative;
+    padding: 20px;
+}
+.item{
+    /* 항상 말하지만 margin이 더 밖임 */
+    margin: 20px;
+    /* 안의 text와 img들의 간격이 padding */
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 6px;
+}
+.html-img{
+    /* 픽셀을 지정해두는 대신 퍼센트로 대체하면서 웹을 줄이고 늘릴때 같이 따라옴 */
+    /* width: 640px; */
+    width: 100%;
+    height: 360px;
+    
+}
+.item-bg{
+    /* width: 640px; */
+    width: 100%;
+    height: 360px;
+    /* 아래에 있는 주석들을 축약하는 ver */
+    background: url(../img/sample-5.jpg) no-repeat center/cover;
+
+    /* repeat없이 공백만을 원할때는 아래를 사용하면 됨 */
+    /* background-repeat: no-repeat; */
+    /* 사이즈를 늘리고 줄일 때 사진이 어느 기준으로 줄고 느는지 설정함 */
+    /* background-position: center; */
+    /* 어떤식으로든 이미지가 반복되지 않고 늘어지게 됨 */
+    /* background-size: cover; */
+    /* background-size: contain; */
+}
+.repeat-bg{
+    background: url(..img/sample-5) repeat-x center/40%;
+}
+.item h1{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
