@@ -55,14 +55,14 @@ a{
     background-color: #000;
     cursor: pointer;
 }
+.ghost-btn{
+    background-color: transparent;
+    border: 1px solid #004fff;
+}
 .ghost-btn:hover{
     background-color: rgba(0,79,255,0.9);
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0,79,255,0.6);
-}
-.ghost-btn{
-    background-color: transparent;
-    border: 1px solid #004fff;
 }
 .text-wrap{
     width: 520px;
