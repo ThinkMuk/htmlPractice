@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형 영상 배경 만들기</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/backgroundVideoStyle.css">
+</head>
+<body>
+    <header>
+        <h1>ThinkMuk</h1>
+        <nav class="main-navigation">
+            <a class="active" href="#">메인 강좌</a>
+            <a href="#">소개</a>
+            <a href="#">문의하기</a>
+            <a class="btn ghost-btn" href="#">가입하기</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="video-wrap">
+            <video src="videos/Triangle-Polygon-Motion.mp4" muted autoplay
+            loop>
+        </video>
+        </div>
+        <div class="text-wrap">
+            <h2>프로처럼 <br>디자인하는 <br>노하우</h2>
+            <h3>누구나 쉽게 배우는 디자인 클래스</h3>
+            <p>디자인 툴부터 디자인 전문 분야에 대한 <br>전반적인
+            지식을 알려주는 온라인 강좌 채널입니다</p>
+            <div class="btn-wrap">
+                <a href="#" class="btn">강좌 등록하기</a>
+                <a href="#" class="btn ghost-btn">가입하기</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="sns-wrap"></div>
+    </footer>
+</body>
+</html>
+
+<!-- 문제점 2가지:
+    1. 다른 자료의 영상을 사용하니 높이가 조절되지 않음
+    2. 가장 위에 있는 main-navigation에서 '가입하기' 만 hover이 적용되고
+    나머지는 적용이 안되는 버그가 있음 -->
