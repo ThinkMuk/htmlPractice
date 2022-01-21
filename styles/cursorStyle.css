@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 1080px;
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col-3{
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+h2{
+    border: 1px solid #eee;
+    display: block;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+    padding: 60px 0;
+}
+.c-help{
+    cursor: help;
+}
+.c-wait{
+    cursor: wait;
+}
+.c-crosshair{
+    cursor: crosshair;
+}
+.c-not-allowed{
+    cursor: not-allowed;
+}
+.c-zoom-in{
+    cursor: zoom-in;
+}
+.c-zoom-out{
+    cursor: zoom-out;
+}
+.c-grab{
+    cursor: grab;
+}
+.c-grabbing{
+    cursor: grabbing;
+}
+.c-custom{
+    /* 직접 등록해서 사용도 할 수 있다 */
+    cursor: url()2 2,auto;
+}
