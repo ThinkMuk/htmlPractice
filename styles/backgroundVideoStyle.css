@@ -12,12 +12,16 @@ header{
     padding: 60px;
     z-index: 3;
 }
-header h1{
+.title a{
     font-size: 30px;
     font-weight: bold;
     color:#fff;
     float: left;
     z-index: 0;
+    transition: 0.3s
+}
+.title a:hover{
+    transform: scale(1.05);
 }
 a{
     font-size: 16px;
@@ -32,11 +36,8 @@ a{
     margin-left: 40px;
     transition: 0.3s;
 }
-/* 나머지 3개는 안되고 btn ghost만 적용이 된다 */
+/* hover 상태일때 transform: scale만 안먹힘 왜인지는 아직도 모름 */
 .main-navigation a:hover{
-    transform: scale(1.1);
-}
-.main-navigation a.active{
     font-weight: bold;
     border-bottom: 2px solid #004fff;
 }
@@ -95,7 +96,7 @@ a{
 }
 .video-wrap{
     position: relative;
-    /* width: 100%; */
+    width: 100%;
     width: calc( 100% - 520px );
 }
 .video-wrap video{
@@ -104,3 +105,4 @@ a{
     height: 100vh;
     transform: translateX(-50%);
 }
+ 
